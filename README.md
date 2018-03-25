@@ -1,28 +1,28 @@
 # Pokemon
 
-Visualize os pokemons e suas descricões é bem divertido, aplie seu conhecimento sobre esse fantástico universo.
+Visualize os pokemons e suas descrições é bem divertido, aplie seu conhecimento sobre esse fantástico universo.
 
 <p align="center">
-  ![home](https://github.com/jhsilva/pokemon/blob/master/docs/home.png | width=200)
+  <img src="https://raw.githubusercontent.com/jhsilva/pokemon/master/docs/home.png" width="400" />
 </p>
 
 <p align="center">
-  ![pikachu](https://github.com/jhsilva/pokemon/blob/master/docs/pikachu.png | width=200)
+  <img src="https://raw.githubusercontent.com/jhsilva/pokemon/master/docs/pikachu.png" width="400" />
 </p>
 
 <p align="center">
-  ![charmeleon](https://github.com/jhsilva/pokemon/blob/master/docs/charmeleon.png | width=200)
+  <img src="https://raw.githubusercontent.com/jhsilva/pokemon/master/docs/charmeleon.png" width="400" />
 </p>
 
 <p align="center">
-  ![venusaur](https://github.com/jhsilva/pokemon/blob/master/docs/venusaur.png | width=200)
+  <img src="https://raw.githubusercontent.com/jhsilva/pokemon/master/docs/venusaur.png" width="400" />
 </p>
 
 ## Funcionamento:
 
 - List
 
-  Listagem de pokemon com a opcao de carregar mais.
+  Listagem de pokemon com a opção de carregar mais.
 
 - Details
 
@@ -30,7 +30,7 @@ Visualize os pokemons e suas descricões é bem divertido, aplie seu conheciment
 
 - IndexedDB
 
-  Com o PouchDB é possível deixar todas as requisicões já realizadas armazedas no client, assim evitando requests duplicados
+  Com o PouchDB é possível deixar todas as requisicões já realizadas armazedas no client, assim evitando requests duplicados e carregando todo o conteúdo já requisitado diretamente do indexedDB do browser.
 
 ## Rodando o projeto local
 
@@ -50,8 +50,10 @@ Visualize os pokemons e suas descricões é bem divertido, aplie seu conheciment
 
 ## Tarefas Pendentes:
 
-- [ ] colocar loading
-- [ ] botão de voltar
-- [ ] estilos dos botões
+- [ ] deixar link full nos items da lista
+- [] colocar loading para requisições ajax
+- [ ] botão de voltar na pagina details
+- [ ] estilos do botão carregar mais
 - [ ] pegar descripion sempre por "en"
 - [ ] carregar details automatico
+- [ ] ajustar responsive
