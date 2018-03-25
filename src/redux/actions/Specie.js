@@ -17,7 +17,7 @@ function fetchSpecieFailure(payload) {
 function fetchSpecie(params, dispatch) {
   const { endpoint, name } = params;
 
-  const fetchSpeciecoped = () => {
+  const fetchSpecieScoped = () => {
     fetch(endpoint)
       .then((response) => {
         dispatch(fetchSpecieSuccess({ [name]: response.data }));
@@ -34,12 +34,12 @@ function fetchSpecie(params, dispatch) {
     .then((doc) => {
       const { state } = doc;
 
-      if (!Object.prototype.hasOwnProperty.call(state, name)) fetchSpeciecoped();
+      if (!Object.prototype.hasOwnProperty.call(state, name)) fetchSpecieScoped();
 
       dispatch(fetchSpecieSuccess());
     })
     .catch(() => {
-      fetchSpeciecoped();
+      fetchSpecieScoped();
     });
 }
 

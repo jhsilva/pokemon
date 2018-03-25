@@ -5,7 +5,7 @@ import Details from 'components/Details';
 
 const mapStateToProps = state => ({
   details: state.details,
-  species: state.specie,
+  specie: state.specie,
 });
 
 const mapDispatchToProps = dispatch => ({

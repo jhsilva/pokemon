@@ -10,9 +10,8 @@ injectGlobal`
   }
 
   body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Nunito', sans-serif;
     background-color: #F5F7F9;
-    padding: 40px 0;
   }
 `;
 
@@ -35,7 +34,7 @@ const Item = styled.li`
   padding: 60px 46px;
   background-color: #ffffff;
   border-radius: 16px;
-  box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 20px -5px rgba(0,0,0,0.1);
   transition: all .3s ease;
   display: flex;
   justify-content: space-between;
