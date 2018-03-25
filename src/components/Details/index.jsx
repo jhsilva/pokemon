@@ -12,15 +12,18 @@ class Details extends Component {
   componentDidMount() {
     const { endpoint } = parse(this.props.location.search);
     const { match } = this.props;
+
     this.props.fetchDetails({ endpoint, name: match.params.name });
   }
 
-  getPokemonForm = () => {
-    // this.state.details.forms[0].url
+  componentWillReceiveProps(nextProps) {
+    if (!Object.prototype.hasOwnProperty.call(this.props.species, this.props.match.params.name)) {
+      this.props.fetchSpecie({ endpoint: nextProps.details[this.props.match.params.name].species.url, name: nextProps.match.params.name });
+    }
   }
 
   render() {
-    const details = this.props[this.props.match.params.name];
+    const details = this.props.details[this.props.match.params.name];
 
     let name;
 
@@ -30,7 +33,7 @@ class Details extends Component {
 
     return (
       <Fragment>
-        <h2>{name}</h2>
+        <h2 style={{ backgroundColor: this.props.species.color.name }}>{name}</h2>
 
         {/* {!pokemonForm && <button onClick={this.getPokemonForm}>Show Pokemon Form</button>} */}
 

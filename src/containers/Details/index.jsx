@@ -1,13 +1,16 @@
 import { connect } from 'react-redux';
 import { actionFetchDetails } from 'redux/actions/Details';
+import { actionFetchSpecie } from 'redux/actions/Specie';
 import Details from 'components/Details';
 
 const mapStateToProps = state => ({
-  ...state.details,
+  details: state.details,
+  species: state.specie,
 });
 
 const mapDispatchToProps = dispatch => ({
   fetchDetails: params => dispatch(actionFetchDetails(params)),
+  fetchSpecie: params => dispatch(actionFetchSpecie(params)),
 });
 
 export default connect(
