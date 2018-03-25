@@ -2,6 +2,8 @@
 
 Visualize os pokemons e suas descricões é bem divertido, aplie seu conhecimento sobre esse fantástico universo.
 
+![pokemon](https://github.com/jhsilva/pokemon/blob/master/Screen%20Shot%202018-03-25%20at%203.21.41%20PM.png)
+
 ## Funcionamento:
 
 - List
