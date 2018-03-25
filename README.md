@@ -1,16 +1,19 @@
 # Pokemon
 
-Visualize os pokemons e suas descriões é bem divertido, aplie seu conhecimento sobre esse fantástico universo.
+Visualize os pokemons e suas descricões é bem divertido, aplie seu conhecimento sobre esse fantástico universo.
 
 ## Funcionamento:
 
 - List
+
   Listagem de pokemon com a opcao de carregar mais.
 
 - Details
+
   Detalhes sobre de um pokemon especifico, mostrando suas habilidades e status.
 
 - IndexedDB
+
   Com o PouchDB é possível deixar todas as requisicões já realizadas armazedas no client, assim evitando requests duplicados
 
 ## Rodando o projeto local
@@ -26,6 +29,8 @@ Visualize os pokemons e suas descriões é bem divertido, aplie seu conhecimento
 - StyledComponents
 - Webpack
 - PouchDB
+- Recharts
+- TyniColor
 
 ## Tarefas Pendentes:
 
