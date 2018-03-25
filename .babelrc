@@ -1,0 +1,16 @@
+{
+  "presets": [
+    "react",
+    [
+      "env",
+      {
+        "targets": {
+          "bowsers": ["last 2 versions"]
+        }
+      }
+    ],
+    "stage-0"
+  ],
+  "plugins": ["dynamic-import-webpack"],
+  "comments": true
+}
