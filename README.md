@@ -2,7 +2,21 @@
 
 Visualize os pokemons e suas descricões é bem divertido, aplie seu conhecimento sobre esse fantástico universo.
 
-![pokemon](https://github.com/jhsilva/pokemon/blob/master/Screen%20Shot%202018-03-25%20at%203.21.41%20PM.png)
+<p align="center">
+  ![home](https://github.com/jhsilva/pokemon/blob/master/docs/home.png | width=200)
+</p>
+
+<p align="center">
+  ![pikachu](https://github.com/jhsilva/pokemon/blob/master/docs/pikachu.png | width=200)
+</p>
+
+<p align="center">
+  ![charmeleon](https://github.com/jhsilva/pokemon/blob/master/docs/charmeleon.png | width=200)
+</p>
+
+<p align="center">
+  ![venusaur](https://github.com/jhsilva/pokemon/blob/master/docs/venusaur.png | width=200)
+</p>
 
 ## Funcionamento:
 
