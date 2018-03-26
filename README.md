@@ -51,7 +51,7 @@ Visualize os pokemons e suas descrições é bem divertido, aplie seu conhecimen
 ## Tarefas Pendentes:
 
 - [ ] deixar link full nos items da lista
-- [] colocar loading para requisições ajax
+- [ ] colocar loading para requisições ajax
 - [ ] botão de voltar na pagina details
 - [ ] estilos do botão carregar mais
 - [ ] pegar descripion sempre por "en"
